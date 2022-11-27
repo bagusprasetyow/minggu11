@@ -1,11 +1,11 @@
 <?php
 
-$x = 10;
-if ($x < 20){
-bracket
-    echo"benar";
+if ($x < 10) {
+    echo "benar";
+} elseif {$x == 20
+    echo "BINGGO!";
 } else {
-    echo"salah";
+    echo "salah";
 }
 
 ?>
