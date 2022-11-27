@@ -1,9 +1,10 @@
 <?php
 
-$i = 0;
-while ($i < 5){
-    echo "Hai, ini Baris ke- <br>";
-    $i++;
-}
+echo "<H2>Menggunakan Perulangan Do While</H2>";
+$i = 10;
+do {
+    echo "Hello Word! <br>";
+$i++;
+    } while ( $i < 5);
 
 ?>
