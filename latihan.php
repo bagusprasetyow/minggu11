@@ -1,10 +1,21 @@
-<?php
-
-echo "<H2>Menggunakan Perulangan Do While</H2>";
-$i = 10;
-do {
-    echo "Hello Word! <br>";
-$i++;
-    } while ( $i < 5);
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Looping</title>
+</head>
+<body>
+    <h2>Membuat Perulangan Tabel</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <?php
+        for ($b = 1; $b <= 3; $b++) {
+            echo "<tr>";
+            for ($k = 1; $k <= 5; $k++) {
+                echo "<td> $b,$k </td>";
+            }
+            echo "</tr>";
+        }
+        ?>
+    </table>
+</body>
+</html>
